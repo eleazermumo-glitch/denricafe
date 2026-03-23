@@ -16,6 +16,23 @@ At Denri Cafe, we are rooted in nature and guided by responsibility. We combine 
 We are also committed to affordability. We believe that everyone deserves access to quality, which is why we work hard to keep our prices fair without compromising on standards. This balance has helped us build strong connections with our community over the years.
 
 As we continue to grow, we remain true to our roots while embracing better and more sustainable ways to serve you. Every visit to Denri Cafe is part of our story — and we are honored to share it with you.</p>
+    <div className='row justify-content-center'>
+
+    <div className='col-md-4'>
+      <div className='card shadow'>
+        <img src={"/images/1.png"} alt="" />
+
+    </div>
+      </div>
+      <div className='card shadow col-md-4'>
+        <img src={"/images/2.png"} alt="" />
+
+      </div>
+      <div className='card shadow col-md-4'>
+        <img src={"/images/4.png"} alt="" />
+
+      </div>
+    </div>
 <div className='row'>
 <div className='col-md-4'>
 <h2>Our mission</h2>
@@ -66,12 +83,7 @@ We value our customers and strive to create a space where everyone feels welcome
 
 </div>
     </div>
-    <div className='row '>
-      <div className='col-md-12'>
 
-      </div>
-
-    </div>
 <div className='row App-header text-light text-center p-2'>
   <div className='col-md-12'>
 
