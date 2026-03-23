@@ -87,7 +87,7 @@ We value our customers and strive to create a space where everyone feels welcome
 <div className='row App-header text-light text-center p-2'>
   <div className='col-md-12'>
 
- <h4 className="fs-6">Developed by Eleazer Mumo.&copy; 2026. All Rights Reserved</h4>
+ <h4 className="fs-6 text-light">Developed by Eleazer Mumo.&copy; 2026. All Rights Reserved</h4>
   </div>
 </div>
 </div>
