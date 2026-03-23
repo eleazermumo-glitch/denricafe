@@ -1,0 +1,385 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:rgba(122, 53, 7, 0.884);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-emphasis-color: inherit;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-color{
+  background-color:rgba(192, 98, 10, 0.884);
+  border-radius: 5px;
+
+}
+.form{
+  background-color:burlywood;
+}
+.h5{
+  background-color: burlywood;
+  color: aliceblue;
+}
+.nav{
+  background-color: burlywood;
+}
+
+
+
+.product_img{
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.link{
+  object-fit: contain;
+  height: fit-content;
+  width: fit-content;
+}
+
+.photo{
+  height: auto;
+  width: auto;
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+
+
+.nav-link:hover {
+  color: brown;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: brown;
+  border-color: brown;
+  transform: scale(1.03);
+}
+
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Image container */
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-overlay img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Soft brown tint overlay for all images */
+.img-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(150, 75, 0, 0.15); /* soft coffee brown tint */
+  pointer-events: none;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+  
+}
+
+/* Buy Now button */
+.btn-color {
+  background-color: #a0522d; /* coffee brown */
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-color:hover {
+  background-color: #8b4513; /* darker brown */
+  transform: scale(1.03);
+}
+
+/* Text inside card */
+.card-body h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-body p {
+  color: #5c4033; /* soft dark brown for text */
+}
+
+
+/* Body / page background */
+body {
+  background-color: #f4eee3; /* soft coffee cream */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5c4033; /* soft dark brown for text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for main content */
+.container-fliud {
+  padding: 30px 20px;
+}
+
+/* Headings for the page */
+h2, h1, h3, h4, h5, h6 {
+  color: #5c4033; /* dark brown consistent */
+}
+
+/* Add spacing between cards and rows */
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Target App-header title */
+.App-header h1 {
+  color: #fff;        /* white text */
+  font-weight: 700;   /* optional: bold */
+  text-align: center; /* optional: center text */
+  margin: 0;          /* remove default margin */
+}
+
+
+/* Card / form container */
+.form {
+  border-radius: 15px;
+  background-color: #f8f0e3; /* soft coffee cream, matches cards */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+.form h1 {
+  font-weight: 700;
+  color: #5c4033; /* dark brown */
+  margin-bottom: 20px;
+}
+
+.form h6 {
+  margin-bottom: 10px;
+}
+
+/* Input fields */
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="file"] {
+  border-radius: 10px;
+  border: 1px solid #d3c0a3; /* subtle coffee-tone border */
+  padding: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+  background-color: #fff8f0; /* soft light cream */
+  color: #5c4033;
+}
+
+.form input[type="text"]:focus,
+.form input[type="number"]:focus,
+.form input[type="file"]:focus {
+  outline: none;
+  border-color: #a0522d; /* coffee brown highlight */
+  box-shadow: 0 0 5px rgba(160,82,45,0.4);
+}
+
+/* Button */
+.btn-color {
+  background-color: #a0522d; /* coffee brown */
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-color:hover {
+  background-color: #8b4513; /* darker brown on hover */
+  transform: scale(1.03);
+}
+
+/* Labels and text */
+.form p, .form b {
+  color: #5c4033;
+}
+
+/* Messages */
+.text-success {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.text-danger {
+  color: #c62828;
+  font-weight: 600;
+}
+
+.text-info {
+  color: #0277bd;
+  font-weight: 600;
+}
+
+/* Target all input fields inside the form card */
+.form input.form-control {
+  border-radius: 10px;                  /* rounded corners */
+  border: 1px solid #d3c0a3;            /* subtle coffee-tone border */
+  background-color: #fff8f0 !important; /* soft cream theme background */
+  color: #5c4033 !important;            /* dark brown text */
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect for all inputs */
+.form input.form-control:focus {
+  outline: none;
+  border-color: #a0522d;                /* coffee brown on focus */
+  box-shadow: 0 0 5px rgba(160,82,45,0.4);
+}
+
+/* Button */
+.btn-color {
+  background-color: #a0522d;            /* coffee brown */
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-color:hover {
+  background-color: #8b4513;            /* darker brown */
+  transform: scale(1.03);
+}
+
+.form input::placeholder {
+  color: #a0522d; /* coffee brown placeholder text */
+  opacity: 0.7;
+}
+
+.carousel img {
+  height: 300px;        /* control size */
+  object-fit: cover;    /* prevents stretching */
+  border-radius: 10px;  /* optional nice look */
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel img {
+    height: 200px; /* smaller on tablets/phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel img {
+    height: 150px; /* even smaller on small phones */
+  }
+}
