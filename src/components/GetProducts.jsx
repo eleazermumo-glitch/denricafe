@@ -117,7 +117,7 @@ const GetProducts = () => {
 
 
       <div className="row App-header text-light text-center p-2">
-        <h4 className="fs-6">Developed by Eleazer Mumo.&copy; 2026. All Rights Reserved</h4>
+        <h4 className="fs-6 text-light">Developed by Eleazer Mumo.&copy; 2026. All Rights Reserved</h4>
 
       </div>
     </div>

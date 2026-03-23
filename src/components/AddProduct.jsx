@@ -69,6 +69,7 @@ const AddProduct = () => {
 
       </div>
       
+      
     </div>
   )
 }
