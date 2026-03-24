@@ -55,7 +55,10 @@ const GetProducts = () => {
                 </div>
 
                 <div className="carousel-item">
-                  <img src="/images/cafe3.webp" className="d-block w-100 carousel-img" alt="slide3" />
+                  <img src="/images/eli.png" className="d-block w-100 carousel-img" alt="slide3" />
+                </div>
+                <div className="carousel-item">
+                  <img src="/images/ema.png" className="d-block w-100 carousel-img" alt="slide3" />
                 </div>
                 
 
